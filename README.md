@@ -2,7 +2,7 @@
 
 **React Quiz** è un gioco a tempo sviluppato in React, pensato per testare le conoscenze di base su React.
 
-![React Quiz Screenshot]('./src/assets/screenshot.png')
+![React Quiz Screenshot](./src/assets/screenshot.png)
 
 Il giocatore dovrà rispondere a una serie di domande a scelta multipla, ognuna con quattro opzioni.  
 Ogni risposta deve essere data entro un tempo limite, rendendo il quiz una sfida non solo di conoscenza, ma anche di velocità.  
