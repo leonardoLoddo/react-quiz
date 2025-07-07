@@ -51,7 +51,7 @@ export default [
   },
   {
     id: "q6",
-    text: "Come si rende normalmente una lista di contenuti nelle app React?",
+    text: "Come si renderizza normalmente una lista di contenuti nelle app React?",
     answers: [
       "Utilizzando il metodo map() per iterare su un array di dati e restituire JSX.",
       "Utilizzando il ciclo for() per iterare su un array di dati e restituire JSX.",
@@ -67,6 +67,66 @@ export default [
       "Usare l'operatore ternario.",
       "Usare l'operatore &&.",
       "Usare un'istruzione if-else.",
+    ],
+  },
+  {
+    id: "q8",
+    text: "Cosa sono i props in React?",
+    answers: [
+      "Dati che vengono passati da un componente genitore a un componente figlio.",
+      "Una funzione speciale di React per aggiornare lo stato.",
+      "Un metodo per creare effetti visivi nei componenti.",
+      "Un tipo di hook per gestire il ciclo di vita.",
+    ],
+  },
+  {
+    id: "q9",
+    text: "Cosa fa `useState` in un componente React?",
+    answers: [
+      "Crea una variabile di stato e una funzione per aggiornarla.",
+      "Cambia automaticamente il layout della pagina.",
+      "Aggiunge una nuova funzione al componente.",
+      "Importa uno stile CSS nel componente.",
+    ],
+  },
+  {
+    id: "q10",
+    text: "Quando si usa `useEffect`?",
+    answers: [
+      "Quando vogliamo eseguire codice dopo il rendering del componente.",
+      "Solo quando il componente viene eliminato dalla pagina.",
+      "Per aggiungere stili CSS dinamici al componente.",
+      "Per creare un nuovo componente React.",
+    ],
+  },
+  {
+    id: "q11",
+    text: "Perché ogni elemento in una lista renderizzata con `map()` deve avere una `key` unica?",
+    answers: [
+      "Per aiutare React a identificare correttamente ogni elemento quando aggiorna il DOM.",
+      "Per generare colori casuali per ogni elemento della lista.",
+      "Per evitare errori nel codice HTML.",
+      "Per sincronizzare i dati con un database.",
+    ],
+  },
+  {
+    id: "q12",
+    text: "Che tipo di valori può restituire un componente React?",
+    answers: [
+      "JSX, che sembra HTML ma è JavaScript.",
+      "Solo stringhe e numeri.",
+      "Solo funzioni.",
+      "Solo oggetti JavaScript standard.",
+    ],
+  },
+  {
+    id: "q13",
+    text: "Cosa succede se chiamiamo la funzione che aggiorna lo stato (`setSomething`)?",
+    answers: [
+      "Il componente si ri-renderizza con il nuovo valore.",
+      "Il browser si aggiorna completamente.",
+      "Il componente viene eliminato e ricreato da zero.",
+      "Si attiva un messaggio di errore.",
     ],
   },
 ];
