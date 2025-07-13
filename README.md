@@ -22,7 +22,7 @@ Al termine del quiz viene mostrato un punteggio finale basato sulle risposte cor
 Per eseguire il progetto in locale:
 
 ```bash
-git clone https://github.com/tuo-username/react-quiz.git
+git clone https://github.com/leonardoLoddo/react-quiz.git
 cd react-quiz
 npm install
 npm run dev
